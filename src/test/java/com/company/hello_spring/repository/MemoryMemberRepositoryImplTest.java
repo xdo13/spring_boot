@@ -8,13 +8,13 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 
 import static org.assertj.core.api.Assertions.*;
-class MemoryMemberRepositoryImplTest {
+class MemoryMemberRepositoryImplTests {
 
     MemoryMemberRepositoryImpl repository = new MemoryMemberRepositoryImpl();
 
     @AfterEach
     public void afterEach(){
-        repository.clearStore();
+       repository.clearStore(); 
     }
 
     @Test

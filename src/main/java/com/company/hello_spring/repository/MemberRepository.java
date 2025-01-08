@@ -1,6 +1,6 @@
 package com.company.hello_spring.repository;
 
-import com.company.hello_spring.domian.Member;
+import com.company.hello_spring.domain.Member;
 
 import java.util.List;
 import java.util.Optional;
